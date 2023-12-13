@@ -1,0 +1,24 @@
+{
+  "name": "jest-junit-coverage-node",
+  "version": "1.0.0",
+  "author": "habtim",
+  "license": "ISC",
+  "description": "testing junit coverage report with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest-junit": {
+    "output": "output/coverage/junit/junit.xml",
+    "usePathForSuiteName": "true"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "jest-junit": "^16.0.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.2.2"
+  }
+}
