@@ -3,6 +3,8 @@ Following different articles found on web, it should be possible to include code
 - https://elisegev.medium.com/running-tests-and-creating-code-coverage-reports-for-react-nodejs-project-continuously-with-60312b6a2dd0
 - https://stackoverflow.com/questions/55002587/is-there-a-way-to-generate-jest-istanbul-coverage-report-in-junit-xml-format
 
+I don't want to rely on different libraries, such as cobertura
+
 # Getting started
 
 - Run `pnpm i`
